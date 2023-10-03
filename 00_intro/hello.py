@@ -20,12 +20,15 @@ __version__ = "0.0.1"
 __author__ = "Will Santos"
 __license__ = "Unlicense"
 
+#Importando dicionario/biblioteca para atuar com variavel de ambiente
 import os
 
+#Trabalhando com a variavel de ambiente obtida
 current_language = os.getenv("LANG", "en_US")[:5]
 
 msg = "Hello, World!"
 
+#Condicional do código, caso o idioma seja X, faça Y
 if current_language == "pt_BR":
     msg = "Olá, Mundo!"
 elif current_language == "it_IT":
@@ -35,5 +38,5 @@ elif current_language == "es_SP":
 elif current_language == "fr_FR":
     msg = "Bonjour Monde"
 
-#Este programa imprime Hello World
+#Exibe a variável msg
 print(msg) 
