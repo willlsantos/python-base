@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """Imprime a tabuada do 1 ao 10."""
-__version__= "0.1.0"
+__version__= "0.1.1"
 __author__ = "Will Santos"
 __license__ = "Unlicense"
 
@@ -14,7 +14,9 @@ print(numeros)
 #iteração (percorrivel)
 
 for numero in numeros:
-    print("Tabuada do:", numero)
+    print("Tabuada do", numero)
     for outro_numero  in numeros:
-        print(numero * outro_numero)
-    print("-----------")
+        resultado =  numero * outro_numero
+        #print(numero + " X " + outro_numero + " = " + resultado)
+        print("{:^18}".format(f"{numero} x {outro_numero} = {resultado}"))
+    print("----------------")
