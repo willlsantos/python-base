@@ -51,3 +51,9 @@ Enfim a variavel (soma) onde o valor é armazenado
 ## Protocolo
 É o que o objeto é capaz de fazer
 
+## Tipo de dados Primários
+
+Os tipos primários, são utilizados para armazenar uma única unidade de informação como por exemplo, um número ou um texto.
+Tipos de dados primitivos: int, float, bool e NoneType
+ex: 65
+
