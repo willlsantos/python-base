@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """Imprime a tabuada do 1 ao 10."""
-__version__= "0.1.1"
+__version__= "0.1.2"
 __author__ = "Will Santos"
 __license__ = "Unlicense"
 
@@ -19,4 +19,4 @@ for numero in numeros:
         resultado =  numero * outro_numero
         #print(numero + " X " + outro_numero + " = " + resultado)
         print("{:^18}".format(f"{numero} x {outro_numero} = {resultado}"))
-    print("----------------")
+    print("-" * 12)
