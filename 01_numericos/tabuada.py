@@ -19,4 +19,4 @@ for numero in numeros:
         resultado =  numero * outro_numero
         #print(numero + " X " + outro_numero + " = " + resultado)
         print("{:^18}".format(f"{numero} x {outro_numero} = {resultado}"))
-    print("-" * 12)
+    print("-" * 18)
